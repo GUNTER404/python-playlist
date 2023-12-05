@@ -21,7 +21,7 @@ def zip_videos():
 
 # Step 3: Upload the zip file to Anonfiles
 def upload_to_anonfiles():
-    url = 'https://api.anonfiles.com/upload'
+    url = 'https://anonymfile.com/api/v1/upload'
     files = {'file': open('playlist_videos.zip', 'rb')}
     response = requests.post(url, files=files)
     response_data = response.json()
