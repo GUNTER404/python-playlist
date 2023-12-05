@@ -38,7 +38,7 @@ if __name__ == "__main__":
     # Step 1: Download YouTube playlist videos
     download_yt_playlist(playlist_url)
     
-    # Step 2: Zip downloaded videos
+    # Step 2: Zip downloaded videos 
     zip_videos()
     
     # Step 3: Upload the zip file to Anonfiles
